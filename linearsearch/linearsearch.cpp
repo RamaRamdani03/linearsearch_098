@@ -55,4 +55,8 @@ void Linearsearch()
 
 		if (i == n)				// Langkah 5B not found
 			cout << "\n" << item << " not found in the array\n";
-		
+		cout << "\n Number of comparisons: " << comparisons << endl;
+
+		cout << "\nContinue search (y/n): ";
+		cin >> ch;
+	
